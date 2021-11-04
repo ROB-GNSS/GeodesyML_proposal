@@ -1,6 +1,6 @@
 # GeodesyML proposal
 
-As discussed during the first “GeodesyML Discussion” meeting (26.10.2021), we propose to enrich GeodesyML functionalities by exploiting existing classes and including additional ones.
+As discussed during the first “GeodesyML Discussion” meeting (26.10.2021), we propose to enrich [GeodesyML](https://github.com/GeoscienceAustralia/GeodesyML) functionalities by exploiting existing classes and including additional ones.
 
 Here's a short version of the proposal:
 
