@@ -72,7 +72,7 @@ Here's an example of use of the `geo:Document` class to include information on a
     </geo:Document>
 ```
 
-### `geo:Document` to include site pictures (#include-site-pictures)
+### <a name="include-site-pictures">`geo:Document` to include site pictures</a>
 Information about available station pictures can be included in the GeodesyML file via `geo:Document`:
 
 ```xml
