@@ -12,7 +12,7 @@ File types are listed in the code list file [`type-codelists.xml`](../codelists/
         </geo:type>
 ```
 
-In addition, to better comply with FAIR data principles, we propose to include `geo:license` as a new property to the `geo:Document` class, together with its associated code list file [`license-codelists.xml`](https://gnss-metadata.eu/GeodesyML_ext/codelists/type-codelists.xml), for example:
+In addition, to better comply with FAIR data principles, we propose to include `geo:license` as a new property to the `geo:Document` class, together with its associated code list file [`license-codelists.xml`](../codelists/type-codelists.xml), for example:
 
 ```xml
        <!-- Code list for the various license types that can be assigned to the attached document -->
@@ -21,7 +21,7 @@ In addition, to better comply with FAIR data principles, we propose to include `
         </geo:license>
 ```
 
-In addition, we propose to introduce in `geo:Document` the new property `geo:keywords` to indicate descriptive keywords to be used as “filters” to identify the different pictures e.g. GNSS antenna, monument etc. (see also the complete [example below](https://docs.google.com/document/d/1Q225npBSBGWt7ZVQK4LjMIkUGFATwY0h6hfbihY2ogg/edit#heading=h.imcovxj2qjd1)):
+We also propose to introduce in `geo:Document` the new property `geo:keywords` to indicate descriptive keywords to be used as “filters” e.g., to identify the different pictures of GNSS antenna, monument etc., following the example of [SensorML](http://www.sensorml.com/sensorML-2.0/examples/description.html)
 
 ```xml
     <!-- Keywords to set up a filter for the attached documents -->
@@ -32,6 +32,7 @@ In addition, we propose to introduce in `geo:Document` the new property `geo:key
             </geo:KeywordList>
         </geo:keywords>
 ```
+See [this section](#include-site-pictures) for a complete example.
 
 ### `geo:Document` to include ATX files
 Here's an example of use of the `geo:Document` class to include information on an antenna calibration file (an extended example to illustrate how to include different types of ATX is available [here](../examples/WARN00DEU_antenna_calibration.xml)):
@@ -71,7 +72,7 @@ Here's an example of use of the `geo:Document` class to include information on a
     </geo:Document>
 ```
 
-### `geo:Document` to include site pictures
+### `geo:Document` to include site pictures (#include-site-pictures)
 Information about available station pictures can be included in the GeodesyML file via `geo:Document`:
 
 ```xml
