@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geo:GeodesyML xmlns:geo="urn:xml-gov-au:icsm:egeodesy:0.5" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" gml:id="WARN00DEU">
+  <!--
+  .
+  .
+  .
+  geo:Document
+  -->
+<geo:Document gml:id="atx_1">
+	<gml:description>Robot Calibration</gml:description>
+	<!-- Code list for the various data types related to the type of attached document -->
+	<geo:type codeSpace="urn:gnss-metadata.eu:gnss:file-type" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/type-codelists.xml#FileType" codeListValue="ATX_INDIVIDUAL">ATX_INDIVIDUAL</geo:type>
+	<!-- Keywords to set up a filter for the attached documents -->
+	<geo:Keywords>
+    <geo:KeywordList>
+		<geo:keyword>Individual Calibration</geo:keyword>
+        <geo:keyword>Robot Calibration</geo:keyword>
+    </geo:KeywordList>
+	</geo:Keywords>
+	<!-- Dates corresponding to: document creation, date when the document was received by the publisher, publication date -->
+	<geo:createdDate>2013-01-10Z</geo:createdDate>
+	<geo:receivedDate>2016-05-12Z</geo:receivedDate>
+	<geo:publishedDate>2021-03-12Z</geo:publishedDate>
+	<!-- Owner/ Creator/ Publisher (agencies' details defined in the file contacts.xml) -->
+	<geo:custodian xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aaa024f"/>
+	<geo:creator xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aa3123a"/>
+	<geo:publisher xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aa3054f"/>
+	<!-- Code list for the various license types that can be assigned to the attached document -->
+	<geo:license codeSpace="urn:gnss-metadata.eu:gnss:license" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/license-codelists.xml" codeListValue="CC0-1.0"><![CDATA[CC0-1.0]]></geo:license>
+	<geo:body>
+		<!-- Link to the physical file corresponding to the attached document-->
+		<geo:fileReference
+			xlink:href="https://epncb.oma.be/ftp/station/general/indiv_calibrations/LEIAR25R4_LEIT_725559_ROBOT_GEO_20130110.atx"
+		/>
+	</geo:body>
+</geo:Document>
+<geo:Document gml:id="atx_2">
+	<gml:description>Chamber Calibration</gml:description>
+	<!-- Code list for the various data types related to the type of attached document -->
+	<geo:type codeSpace="urn:gnss-metadata.eu:gnss:file-type" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/type-codelists.xml#FileType" codeListValue="ATX_INDIVIDUAL"><![CDATA[ATX_INDIVIDUAL]]></geo:type>
+  <!-- Keywords to set up a filter for the attached documents -->
+	<geo:keywords>
+    <geo:KeywordList>
+		<geo:keyword>Individual Calibration</geo:keyword>
+        <geo:keyword>Chamber Calibration</geo:keyword>
+    </geo:KeywordList>
+	</geo:keywords>
+	<!-- Dates corresponding to: document creation, date when the document was received by the publisher, publication date -->
+	<geo:createdDate>2013-03-12Z</geo:createdDate>
+	<geo:receivedDate>2017-02-13Z</geo:receivedDate>
+	<geo:publishedDate>2021-03-12Z</geo:publishedDate>
+	<!-- Owner/ Creator/ Publisher (agencies' details defined in the file contacts.xml) -->
+	<geo:custodian xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aaa024f"/>
+	<geo:creator xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aaa0110"/>
+	<geo:publisher xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aa3054f"/>
+	<!-- Code list for the various license types that can be assigned to the attached document -->
+	<geo:license codeSpace="urn:gnss-metadata.eu:gnss:license" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/license-codelists.xml" codeListValue="CC0-1.0"><![CDATA[CC0-1.0]]></geo:license>
+	<geo:body>
+		<!-- Link to the physical file corresponding to the attached document-->
+		<geo:fileReference
+			xlink:href="https://epncb.oma.be/ftp/station/general/indiv_calibrations/LEIAR25R4_LEIT_725559_CHAMBER_BONN_20130312.atx"
+		/>
+	</geo:body>
+</geo:Document>
+<geo:Document gml:id="atx_3">
+	<gml:description>Chamber Individual Calibration</gml:description>
+	<!-- Code list for the various data types related to the type of attached document -->
+	<geo:type codeSpace="urn:gnss-metadata.eu:gnss:file-type" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/type-codelists.xml#FileType" codeListValue="ATX_INDIVIDUAL"><![CDATA[ATX_INDIVIDUAL]]></geo:type>
+	<!-- Keywords to set up a filter for the attached documents -->
+	<geo:keywords>
+    <geo:KeywordList>
+		<geo:keyword>Individual Calibration</geo:keyword>
+        <geo:keyword>Chamber Calibration</geo:keyword>
+    </geo:KeywordList>
+	</geo:keywords>
+	<!-- Dates corresponding to: document creation, date when the document was received by the publisher, publication date -->
+	<geo:createdDate>2018-10-15Z</geo:createdDate>
+	<geo:receivedDate>2018-11-01Z</geo:receivedDate>
+	<geo:publishedDate>2021-03-12Z</geo:publishedDate>
+	<!-- Owner/ Creator/ Publisher (agencies' details defined in the file contacts.xml) -->
+	<geo:custodian xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aaa024f"/>
+	<geo:creator xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aaa0110"/>
+	<geo:publisher xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aa3054f"/>
+	<!-- Code list for the various license types that can be assigned to the attached document -->
+	<geo:license codeSpace="urn:gnss-metadata.eu:gnss:license" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/license-codelists.xml" codeListValue="CC0-1.0"><![CDATA[CC0-1.0]]></geo:license>
+	<geo:body>
+		<!-- Link to the physical file corresponding to the attached document-->
+		<geo:fileReference
+			xlink:href="https://epncb.oma.be/ftp/station/general/indiv_calibrations/LEIAR25R4_LEIT_725559_CHAMBER_BONN_20181015.atx"
+		/>
+	</geo:body>
+</geo:Document>
+<geo:Document gml:id="atx_4">
+	<gml:description>Robot Calibration</gml:description>
+	<!-- Code list for the various data types related to the type of attached document -->
+	<geo:type codeSpace="urn:gnss-metadata.eu:gnss:file-type" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/type-codelists.xml#FileType" codeListValue="ATX_INDIVIDUAL"><![CDATA[ATX_INDIVIDUAL]]></geo:type>
+	<!-- Keywords to set up a filter for the attached documents -->
+	<geo:keywords>
+    <geo:KeywordList>
+		<geo:keyword>Individual Calibration</geo:keyword>
+        <geo:keyword>Robot Calibration</geo:keyword>
+    </geo:KeywordList>
+	</geo:keywords>
+	<!-- Dates corresponding to: document creation, date when the document was received by the publisher, publication date -->
+	<geo:createdDate>2019-04-26Z</geo:createdDate>
+	<geo:receivedDate>2019-05-02Z</geo:receivedDate>
+	<geo:publishedDate>2021-03-12Z</geo:publishedDate>
+	<!-- Owner/ Creator/ Publisher (agencies' details defined in the file contacts.xml) -->
+	<geo:custodian xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aaa024f"/>
+	<geo:creator xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aa2000f"/>
+	<geo:publisher xlink:href="https://gnss-metadata.eu/GeodesyML_ext/codelists/contacts.xml#agency_59d4d762b6ae0c10a256a102_5bbcb5aa3054f"/>
+	<!-- Code list for the various license types that can be assigned to the attached document -->
+	<geo:license codeSpace="urn:gnss-metadata.eu:gnss:license" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/license-codelists.xml" codeListValue="CC0-1.0"><![CDATA[CC0-1.0]]></geo:license>
+	<geo:body>
+		<!-- Link to the physical file corresponding to the attached document-->
+		<geo:fileReference
+			xlink:href="https://epncb.oma.be/ftp/station/general/indiv_calibrations/LEIAR25R4_LEIT_725559_ROBOT_BERL_20190426.atx"
+		/>
+	</geo:body>
+</geo:Document>
+<!--
+.
+.
+.
+Site log/GNSS antenna
+-->
+    <geo:gnssAntenna>
+      <geo:GnssAntenna gml:id="gnss-antenna-5fa16d8490b15">
+	      <!-- Original remarks for the antenna -->
+        <geo:notes>Antenna individual calibrated absolutely by&#13;
+GEO++ - ROBOT 2013-01-10&#13;
+UNI BONN - CHAMBER 2013-03-12&#13;
+UNI BONN - CHAMBER 2018-10-15&#13;
+Senatsverwaltung Berlin - ROBOT 2019-05-02</geo:notes>
+		<!-- Link to the 4 individual antenna calibrations for the antenna -->
+		<geo:associatedDocument xlink:href="#atx_1"/>
+		<geo:associatedDocument xlink:href="#atx_2"/>
+		<geo:associatedDocument xlink:href="#atx_3"/>
+		<geo:associatedDocument xlink:href="#atx_4"/>
+		<!-- -->
+        <geo:manufacturerSerialNumber>725559</geo:manufacturerSerialNumber>
+        <geo:igsModelCode codeSpace="urn:gnss-metadata.eu:gnss:antenna-type" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/antenna-receiver-codelists.xml#GeodesyML_GNSSAntennaTypeCode" codeListValue="LEIAR25.R4      LEIT"><![CDATA[LEIAR25.R4      LEIT]]></geo:igsModelCode>
+        <geo:antennaReferencePoint codeSpace="urn:ga-gov-au:antenna-reference-point-type"><![CDATA[BPA]]></geo:antennaReferencePoint>
+        <geo:marker-arpUpEcc.>0.0690</geo:marker-arpUpEcc.>
+        <geo:marker-arpNorthEcc.>0.0000</geo:marker-arpNorthEcc.>
+        <geo:marker-arpEastEcc.>0.0000</geo:marker-arpEastEcc.>
+        <geo:alignmentFromTrueNorth xsi:nil="false">0</geo:alignmentFromTrueNorth>
+        <geo:antennaRadomeType codeSpace="urn:igs-org:gnss-radome-model-code"><![CDATA[LEIT]]></geo:antennaRadomeType>
+        <geo:radomeSerialNumber><![CDATA[]]></geo:radomeSerialNumber>
+        <geo:antennaCableType><![CDATA[RG214]]></geo:antennaCableType>
+        <geo:antennaCableLength xsi:nil="false">20</geo:antennaCableLength>
+        <geo:dateInstalled><![CDATA[2019-05-13T11:00:00Z]]></geo:dateInstalled>
+        <geo:dateRemoved><![CDATA[]]></geo:dateRemoved>
+      </geo:GnssAntenna>
+      <geo:dateInserted>2020-11-03T14:47:00Z</geo:dateInserted>
+      <geo:dateDeleted></geo:dateDeleted>
+    </geo:gnssAntenna>
+<!--
+.
+. Rest of the document
+.
+-->
+</geo:GeodesyML>
