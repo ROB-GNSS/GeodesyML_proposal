@@ -1,0 +1,40 @@
+<CT_CodelistCatalogue xmlns='http://www.isotc211.org/2005/gmx' xmlns:gco='http://www.isotc211.org/2005/gco' xmlns:gml='http://www.opengis.net/gml/3.2' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <name>
+        <gco:CharacterString>M3G License Code list</gco:CharacterString>
+    </name>
+    <scope>
+        <gco:CharacterString>GNSS</gco:CharacterString>
+    </scope>
+    <fieldOfApplication>
+        <gco:CharacterString>Geodesy</gco:CharacterString>
+    </fieldOfApplication>
+    <versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+    </versionNumber>
+    <versionDate>
+        <gco:Date>2021-08-10</gco:Date>
+    </versionDate>
+    <codelistItem>
+        <CodeListDictionary gml:id='GeodesyML_LicenseTypeCode'>
+            <gml:description>File License information</gml:description>
+            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:license'>GeodesyML_LicenseTypeCode</gml:identifier>
+
+                <codeEntry>
+                    <CodeDefinition gml:id='LicenseTypeCode_CC-BY-4.0'>
+						<gml:description xlink:href="https://creativecommons.org/licenses/by/4.0/"/>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:license'>CC-BY-4.0</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:license'>Creative Commons Attribution 4.0 International</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+
+				<codeEntry>
+                    <CodeDefinition gml:id='LicenseTypeCode_CC0'>
+						<gml:description xlink:href="https://creativecommons.org/publicdomain/zero/1.0/"/>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:license'>CC0-1.0</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:license'>Creative Commons Zero v1.0 Universal</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+
+        </CodeListDictionary>
+    </codelistItem>
+</CT_CodelistCatalogue>
