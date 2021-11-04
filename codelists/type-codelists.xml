@@ -1,0 +1,62 @@
+<CT_CodelistCatalogue xmlns='http://www.isotc211.org/2005/gmx' xmlns:gco='http://www.isotc211.org/2005/gco' xmlns:gml='http://www.opengis.net/gml/3.2' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <name>
+        <gco:CharacterString>M3G File type Code list</gco:CharacterString>
+    </name>
+    <scope>
+        <gco:CharacterString>eGeodesy</gco:CharacterString>
+    </scope>
+    <fieldOfApplication>
+        <gco:CharacterString>Geodesy</gco:CharacterString>
+    </fieldOfApplication>
+    <versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+    </versionNumber>
+    <versionDate>
+        <gco:Date>2021-08-10</gco:Date>
+    </versionDate>
+    <codelistItem>
+        <CodeListDictionary gml:id='GeodesyML_FileType'>
+            <gml:description>File Type information</gml:description>
+            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:file-type'>GeodesyML_FileType</gml:identifier>
+            
+                <codeEntry>
+                    <CodeDefinition gml:id='FileType_PICTURE'>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:file-type'>PICTURE</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:file-type'>Station picture</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				
+				<codeEntry>
+                    <CodeDefinition gml:id='FileType_SINEX'>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:file-type'>SINEX</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:file-type'>SINEX file</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				
+				<codeEntry>
+                    <CodeDefinition gml:id='FileType_ATX_INDIVIDUAL'>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:file-type'>ATX_INDIVIDUAL</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:file-type'>Antenna Calibration</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+            
+				<codeEntry>
+                    <CodeDefinition gml:id='FileType_ATX_IGS_TYPE_MEAN'>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:file-type'>ATX_IGS_TYPE_MEAN</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:file-type'>IGS Type Mean Calibration</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				<codeEntry>
+                    <CodeDefinition gml:id='FileType_ATX_MIXED'>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:file-type'>ATX_MIXED</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:file-type'>Antenna Mixed Calibration</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+        </CodeListDictionary>
+    </codelistItem>
+</CT_CodelistCatalogue>
