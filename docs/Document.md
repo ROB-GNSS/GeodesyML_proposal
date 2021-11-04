@@ -1,7 +1,7 @@
 ## Exploiting availability of site pictures and (individual) antenna calibration files
 
 We propose to exploit the `geo:Document`class to include files carrying additional station information e.g., station pictures or the (individual) antenna calibration (ANTEX files). 
-File types are listed in the code list file [`type-codelists.xml`](codelists/type-codelists.xml), in an effort to extend standardization to the different types of files in use. For example, to include an individual ATX file:
+File types are listed in the code list file [`type-codelists.xml`](../codelists/type-codelists.xml), in an effort to extend standardization to the different types of files in use. For example, to include an individual ATX file:
 
 ```xml
    <geo:Document gml:id="atx_3">
@@ -34,7 +34,7 @@ In addition, we propose to introduce in `geo:Document` the new property `geo:key
 ```
 
 ### `geo:Document` to include ATX files
-Here's an example of use of the `geo:Document` class to include information on an antenna calibration file (an extended example to illustrate how to include different types of ATX is available [here](https://gnss-metadata.eu/GeodesyML_ext/examples/WARN00DEU_antenna_calibration.xml)):
+Here's an example of use of the `geo:Document` class to include information on an antenna calibration file (an extended example to illustrate how to include different types of ATX is available [here](../examples/WARN00DEU_antenna_calibration.xml)):
 
 
 ```xml
@@ -111,7 +111,7 @@ Information about available station pictures can be included in the GeodesyML fi
 ```
 
 ### `geo:associatedDocument` to link associated documents to a specific antenna
-The documents attached to the GeodesyML file via `geo:Document` (e.g., the antenna picture and calibration files in the example [`BRUX00BEL.xml`](examples/BRUX00BEL.xml)) can be linked to a specific antenna (`geo:GnssAntenna`) inside the `geo:siteLog` by exploiting `geo:associatedDocument` and `xlink` as below: 
+The documents attached to the GeodesyML file via `geo:Document` (e.g., the antenna picture and calibration files in the example [`BRUX00BEL.xml`](../examples/BRUX00BEL.xml)) can be linked to a specific antenna (`geo:GnssAntenna`) inside the `geo:siteLog` by exploiting `geo:associatedDocument` and `xlink` as below: 
 
 ```xml
                 <!-- Antenna calibration and/or site pictures can be linked to the specific antenna-->
