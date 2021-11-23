@@ -7,7 +7,7 @@ Here's a short version of the proposal:
 - [Introduction](docs/Introduction.md)
 - [New `geo:Document` properties: `geo:license` & `geo:keywords`](docs/Document.md)
 - [New class `geo:Metadata`](docs/Metadata.md)
-- [New code list for data centers](docs/Data_Centers.md)
+- [New code list for data centers: `datacenter-codelists.xml`](docs/Data_Centers.md)
 - [New `geo:siteLog/geo:moreInformation` property: `geo:gnssnetwork`](docs/Networks.md)
 - [New `geo:siteLog/geo:FormInformation` property: `geo:modifiedSection`](docs/Modified_Sections.md)
 

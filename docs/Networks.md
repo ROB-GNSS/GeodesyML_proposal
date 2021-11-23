@@ -1,6 +1,6 @@
 ## GNSS network
 
-As the requirements for the validity of the collected GNSS station information depend on the international networks the GNSS stations belong to, we propose to include this information by exploiting the class `geo:moreInformation` (corresponding to Section 13 of the IGS site log) and introducing a new property geo:gnssnetwork together with the associated code list file [`network-codelists.xml`](codelists/network-codelists.xml):
+As the requirements for the validity of the collected GNSS station information depend on the international networks the GNSS stations belong to, we propose to include this information by exploiting the class `geo:moreInformation` (corresponding to Section 13 of the IGS site log) and introducing a new property `geo:gnssnetwork` together with the associated code list file [`network-codelists.xml`](codelists/network-codelists.xml):
 
 ```xml
     <geo:moreInformation>
