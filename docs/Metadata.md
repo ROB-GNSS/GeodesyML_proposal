@@ -1,9 +1,8 @@
 ## Provenance information for GeodesyML files
 
-We propose to introduce a new class `geo:Metadata` to include provenance infomation about the GoedesyML file itself 
-and attach rich metadata (as stated by one of the FAIR data principles: *“F2. data are described with rich metadata”* 
-Wilkinson et al. The FAIR Guiding Principles for scientific data management and stewardship. [Sci Data 3, 160018 (2016)](https://www.nature.com/articles/sdata201618)) 
-to the GeodesyML file itself. 
+We propose to introduce a new class `geo:Metadata` to include provenance information about the GeodesyML file itself and attach rich metadata (as stated by one of the FAIR data principles: *“F2. data are described with rich metadata”*
+Wilkinson et al. The FAIR Guiding Principles for scientific data management and stewardship. [Sci Data 3, 160018 (2016)](https://www.nature.com/articles/sdata201618))
+to the GeodesyML file itself.
 
 The following information, included as [`gml:MD_Metadata` data type](http://www.datypic.com/sc/niem21/e-gmd_MD_Metadata.html), will allow identifying the organization that validated and distributes the station information encoded in the GeodesyML file:
 

@@ -1,0 +1,65 @@
+<CT_CodelistCatalogue xmlns='http://www.isotc211.org/2005/gmx' xmlns:gco='http://www.isotc211.org/2005/gco' xmlns:gml='http://www.opengis.net/gml/3.2' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <name>
+        <gco:CharacterString>GNSS Networks</gco:CharacterString>
+    </name>
+    <scope>
+        <gco:CharacterString>eGeodesy</gco:CharacterString>
+    </scope>
+    <fieldOfApplication>
+        <gco:CharacterString>Geodesy</gco:CharacterString>
+    </fieldOfApplication>
+    <versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+    </versionNumber>
+    <versionDate>
+        <gco:Date>2021-08-10</gco:Date>
+    </versionDate>
+    <codelistItem>
+        <CodeListDictionary gml:id='GeodesyML_NetworkTypeCode'>
+            <gml:description>Network information</gml:description>
+            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:network'>GeodesyML_Network</gml:identifier>
+
+                <codeEntry>
+                    <CodeDefinition gml:id='GeodesyML_Network_EPOS'>
+						<gml:metaDataProperty xlink:title="type">International</gml:metaDataProperty>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:network'>EPOS</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:network'>European Plate Observing System</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				<codeEntry>
+                    <CodeDefinition gml:id='GeodesyML_Network_EPN'>
+						<gml:metaDataProperty xlink:title="type">International</gml:metaDataProperty>
+						<gml:metaDataProperty xlink:title="contact">epncb@oma.be</gml:metaDataProperty>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:network'>EPN</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:network'>EUREF Permanent GNSS Network</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				<codeEntry>
+                    <CodeDefinition gml:id='GeodesyML_Network_ROB_GNSS'>
+						<gml:metaDataProperty xlink:title="type">Regional</gml:metaDataProperty>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:network'>ROB_GNSS</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:network'>ROB GNSS Network</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				<codeEntry>
+                    <CodeDefinition gml:id='GeodesyML_Network_IGS'>
+						<gml:metaDataProperty xlink:title="type">International</gml:metaDataProperty>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:network'>IGS</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:network'>International GNSS Service</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+				<codeEntry>
+                    <CodeDefinition gml:id='GeodesyML_Network_E-GVAP'>
+						<gml:metaDataProperty xlink:title="type">International</gml:metaDataProperty>
+						<gml:description></gml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:network'>E-GVAP</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:network'>EUMETNET EIG GNSS water vapour programme</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+        </CodeListDictionary>
+    </codelistItem>
+</CT_CodelistCatalogue>

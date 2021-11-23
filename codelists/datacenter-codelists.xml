@@ -1,0 +1,55 @@
+<CT_CodelistCatalogue xmlns='http://www.isotc211.org/2005/gmx' xmlns:gco='http://www.isotc211.org/2005/gco' xmlns:gml='http://www.opengis.net/gml/3.2' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <name>
+        <gco:CharacterString>GNSS Data Repository</gco:CharacterString>
+    </name>
+    <scope>
+        <gco:CharacterString>eGeodesy</gco:CharacterString>
+    </scope>
+    <fieldOfApplication>
+        <gco:CharacterString>Geodesy</gco:CharacterString>
+    </fieldOfApplication>
+    <versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+    </versionNumber>
+    <versionDate>
+        <gco:Date>2021-08-10</gco:Date>
+    </versionDate>
+    <codelistItem>
+        <CodeListDictionary gml:id='GeodesyML_DataCenterCode'>
+            <gml:description>Data Center information</gml:description>
+            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>GeodesyML_DataCenter</gml:identifier>
+                <codeEntry>
+                        <CodeDefinition gml:id='GeodesyML_DataCenter_EPN'>
+      					<gml:metaDataProperty xlink:title="link">ftp://ftp.epncb.oma.be/pub/obs/</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="protocol">ftp</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="rights">open</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="dataType">Daily RINEX2 Observation</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="dataType">Daily RINEX3 Observation</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="dataType">Daily RINEX2 Navigation</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="dataType">Daily RINEX3 Navigation</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="contact_agency">ROB</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="contact_email">C.Bruyninx@oma.be</gml:metaDataProperty>
+      					<gml:description xlink:href="https://www.epncb.oma.be/ftp/center/data/EPN.HDC"></gml:description>
+                            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>ROB</gml:identifier>
+      					<gml:name codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>EPN Historical Data Centres</gml:name>
+                        </CodeDefinition>
+                </codeEntry>
+				        <codeEntry>
+                        <CodeDefinition gml:id='GeodesyML_DataCenter_BKG'>
+    						<gml:metaDataProperty xlink:title="link">https://igs.bkg.bund.de</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="protocol">https</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="rights">open</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="dataType">Daily RINEX2 Observation</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="dataType">Daily RINEX3 Observation</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="dataType">Daily RINEX2 Navigation</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="dataType">Daily RINEX3 Navigation</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="contact_agency">BKG</gml:metaDataProperty>
+    						<gml:metaDataProperty xlink:title="contact_email">bkg-gdc@bkg.bund.de</gml:metaDataProperty>
+    						<gml:description xlink:href="https://www.epncb.oma.be/ftp/center/data/BKGE.RDC"></gml:description>
+                            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>BKG</gml:identifier>
+    						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>Bundesamt fuer Kartographie und Geodaesie Federal Office for Cartography and Geodesy</gml:name>
+                        </CodeDefinition>
+                </codeEntry>
+        </CodeListDictionary>
+    </codelistItem>
+</CT_CodelistCatalogue>
