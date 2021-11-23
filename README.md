@@ -8,7 +8,7 @@ Here's a short version of the proposal:
 - [New `geo:Document` properties: `geo:license` & `geo:keywords`](docs/Document.md)
 - [New class `geo:Metadata`](docs/Metadata.md)
 
-In the tables below, an overview of some of the proposed changes (see also the example [`BRUX00BEL.xml`](examples/BRUX00BEL.xml))
+In the tables below, an overview of some of the proposed changes (see also the example [`BRUX00BEL.xml`](examples/0.6/BRUX00BEL.xml))
 
 **Additional metadata elements**
 

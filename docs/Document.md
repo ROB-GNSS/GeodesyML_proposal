@@ -1,6 +1,6 @@
 ## Exploiting availability of site pictures and (individual) antenna calibration files
 
-We propose to exploit the `geo:Document`class to include files carrying additional station information e.g., station pictures or the (individual) antenna calibration (ANTEX files). 
+We propose to exploit the `geo:Document`class to include files carrying additional station information e.g., station pictures or the (individual) antenna calibration (ANTEX files).
 File types are listed in the code list file [`type-codelists.xml`](../codelists/type-codelists.xml), in an effort to extend standardization to the different types of files in use. For example, to include an individual ATX file:
 
 ```xml
@@ -21,7 +21,7 @@ In addition, to better comply with FAIR data principles, we propose to include `
         </geo:license>
 ```
 
-We also propose to introduce in `geo:Document` the new property `geo:keywords` to indicate descriptive keywords to be used as “filters” e.g., to identify the different pictures of GNSS antenna, monument etc., following the example of [SensorML](http://www.sensorml.com/sensorML-2.0/examples/description.html)
+We also propose to introduce in `geo:Document` the new property `geo:keywords` to indicate descriptive keywords to be used as “filters” e.g., to identify the different pictures of GNSS antenna, monument etc., following the example of [SensorML](http://www.sensorml.com/sensorML-2.0/examples/0.6/description.html)
 
 ```xml
     <!-- Keywords to set up a filter for the attached documents -->
@@ -35,7 +35,7 @@ We also propose to introduce in `geo:Document` the new property `geo:keywords` t
 See [this section](#include-site-pictures) for a complete example.
 
 ### `geo:Document` to include ATX files
-Here's an example of use of the `geo:Document` class to include information on an antenna calibration file (an extended example to illustrate how to include different types of ATX is available [here](../examples/WARN00DEU_antenna_calibration.xml)):
+Here's an example of use of the `geo:Document` class to include information on an antenna calibration file (an extended example to illustrate how to include different types of ATX is available [here](../examples/0.6/WARN00DEU_antenna_calibration.xml)):
 
 
 ```xml
@@ -112,7 +112,7 @@ Information about available station pictures can be included in the GeodesyML fi
 ```
 
 ### `geo:associatedDocument` to link associated documents to a specific antenna
-The documents attached to the GeodesyML file via `geo:Document` (e.g., the antenna picture and calibration files in the example [`BRUX00BEL.xml`](../examples/BRUX00BEL.xml)) can be linked to a specific antenna (`geo:GnssAntenna`) inside the `geo:siteLog` by exploiting `geo:associatedDocument` and `xlink` as below: 
+The documents attached to the GeodesyML file via `geo:Document` (e.g., the antenna picture and calibration files in the example [`BRUX00BEL.xml`](../examples/0.6/BRUX00BEL.xml)) can be linked to a specific antenna (`geo:GnssAntenna`) inside the `geo:siteLog` by exploiting `geo:associatedDocument` and `xlink` as below:
 
 ```xml
                 <!-- Antenna calibration and/or site pictures can be linked to the specific antenna-->
