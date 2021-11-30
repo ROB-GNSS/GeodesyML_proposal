@@ -8,7 +8,7 @@ Here's a short version of the proposal:
 - [New `geo:Document` properties: `geo:license` & `geo:keywords`](docs/Document.md)
 - [New class `geo:Metadata`](docs/Metadata.md)
 - [New code list for data centers: `datacenter-codelists.xml`](docs/Data_Centers.md)
-- [New `geo:siteLog/geo:moreInformation` property: `geo:gnssnetwork`](docs/Networks.md)
+- [New `geo:siteLog/geo:moreInformation` property: `geo:gnssNetwork`](docs/Networks.md)
 - [New `geo:siteLog/geo:FormInformation` property: `geo:modifiedSection`](docs/Modified_Sections.md)
 
 
@@ -22,7 +22,7 @@ In the tables below, an overview of some of the proposed changes (see also the e
 | `geo:keywords` | *descriptive keywords to be used as “filters” for documents attached to GeodesyML* |
 | `geo:Metadata ` | *provenance information for the GeodesyML file* |
 | `geo:modifiedSection` | *changes made in the site log* |
-| `geo:gnssnetwork` | *international network a given GNSS station belongs to* |
+| `geo:gnssNetwork` | *international network a given GNSS station belongs to* |
 
 
 

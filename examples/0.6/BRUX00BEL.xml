@@ -1145,11 +1145,11 @@ REFDLY = 157.5 ns.]]></geo:notes>
 		<geo:dataCenter codeSpace="urn:gnss-metadata.eu:gnss:datacenter" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/datacenter-codelists.xml#GeodesyML_DataCenter" codeListValue="ROB">ROB</geo:dataCenter>
 		<geo:dataCenter codeSpace="urn:gnss-metadata.eu:gnss:datacenter" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/datacenter-codelists.xml#GeodesyML_DataCenter" codeListValue="BKG">BKG</geo:dataCenter>
 		<!-- Network list [0..n] (network details defined in the network-codelists.xml) -->
-		<geo:gnssnetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="EPOS">EPOS</geo:gnssnetwork>
-		<geo:gnssnetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="EPN">EPN</geo:gnssnetwork>
-		<geo:gnssnetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="ROB_GNSS">ROB_GNSS</geo:gnssnetwork>
-		<geo:gnssnetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="IGS">IGS</geo:gnssnetwork>
-		<geo:gnssnetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="E-GVAP">E-GVAP</geo:gnssnetwork>
+		<geo:gnssNetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="EPOS">EPOS</geo:gnssNetwork>
+		<geo:gnssNetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="EPN">EPN</geo:gnssNetwork>
+		<geo:gnssNetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="ROB_GNSS">ROB_GNSS</geo:gnssNetwork>
+		<geo:gnssNetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="IGS">IGS</geo:gnssNetwork>
+		<geo:gnssNetwork codeSpace="urn:gnss-metadata.eu:gnss:network" codeList="https://gnss-metadata.eu/GeodesyML_ext/codelists/network-codelists.xml#GeodesyML_Network" codeListValue="E-GVAP">E-GVAP</geo:gnssNetwork>
 
 
 
