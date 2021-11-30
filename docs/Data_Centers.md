@@ -4,7 +4,7 @@ In an effort to
 - increase the level of standardization in storing the information on data centers hosting station data,
 - improve the data validation process,
 
-we propose, as a first step, to introduce a code list file [`datacenter-codelists.xml`](codelists/datacenter-codelists.xml) to define data centers as `gml:CodeType` and exploit it inside the `geo:moreInformation` class (corresponding to Section 13 of the IGS site log) , within the existing `geo:dataCenter` property:
+we propose, as a first step, to introduce a code list file [`datacenter-codelists.xml`](../codelists/datacenter-codelists.xml) to define data centers as `gml:CodeType` and exploit it inside the `geo:moreInformation` class (corresponding to Section 13 of the IGS site log) , within the existing `geo:dataCenter` property:
 
 ```xml
     <geo:moreInformation>
