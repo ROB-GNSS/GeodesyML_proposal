@@ -34,3 +34,4 @@ In the tables below, an overview of some of the proposed changes (see also the e
 | [`license-codelists.xml`](codelists/license-codelists.xml) | *controlled terminology for data license types* |
 | [`datacenter-codelists.xml`](codelists/datacenter-codelists.xml) | *controlled terminology for GNSS data centers*|
 | [`network-codelists.xml`](codelists/network-codelists.xml) | *controlled terminology for GNSS international networks*|
+| [`sitelogchange-codelists.xml`](codelists/sitelogchange-codelists.xml) | *controlled terminology for changes occuring in site log sections*|
