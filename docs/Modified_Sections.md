@@ -6,12 +6,12 @@ For the same reason that led to the introduction of the new class [`geo:Metadata
 <!-- Trackable information on the site log updates  -->
 <geo:formInformation>
   <geo:FormInformation gml:id="form-info-1">
-    <geo:preparedBy>Carine Bruyninx</geo:preparedBy>
+    <geo:preparedBy>M3G team</geo:preparedBy>
     <geo:datePrepared>2020-01-20</geo:datePrepared>
     <geo:reportType>UPDATE</geo:reportType>
   </geo:FormInformation>
   <geo:FormInformation gml:id="form-info-2">
-    <geo:preparedBy>Carine Bruyninx</geo:preparedBy>
+    <geo:preparedBy>M3G team</geo:preparedBy>
     <geo:datePrepared>2021-04-20</geo:datePrepared>
     <geo:reportType>UPDATE</geo:reportType>
     <!-- Links to the site log sections that have been modified in the site log update -->

@@ -28,7 +28,7 @@
       					<gml:metaDataProperty xlink:title="dataType">Daily RINEX2 Navigation</gml:metaDataProperty>
       					<gml:metaDataProperty xlink:title="dataType">Daily RINEX3 Navigation</gml:metaDataProperty>
       					<gml:metaDataProperty xlink:title="contact_agency">ROB</gml:metaDataProperty>
-      					<gml:metaDataProperty xlink:title="contact_email">C.Bruyninx@oma.be</gml:metaDataProperty>
+      					<gml:metaDataProperty xlink:title="contact_email">epncb@oma.be</gml:metaDataProperty>
       					<gml:description xlink:href="https://www.epncb.oma.be/ftp/center/data/EPN.HDC"></gml:description>
                             <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>ROB</gml:identifier>
       					<gml:name codeSpace='urn:gnss-metadata.eu:gnss:datacenter'>EPN Historical Data Centres</gml:name>
