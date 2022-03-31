@@ -1,0 +1,40 @@
+<CT_CodelistCatalogue xmlns='http://www.isotc211.org/2005/gmx' xmlns:gco='http://www.isotc211.org/2005/gco' xmlns:gml='http://www.opengis.net/gml/3.2' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    <name>
+        <gco:CharacterString>Site log Changes Code list</gco:CharacterString>
+    </name>
+    <scope>
+        <gco:CharacterString>GNSS</gco:CharacterString>
+    </scope>
+    <fieldOfApplication>
+        <gco:CharacterString>Geodesy</gco:CharacterString>
+    </fieldOfApplication>
+    <versionNumber>
+        <gco:CharacterString>1.0</gco:CharacterString>
+    </versionNumber>
+    <versionDate>
+        <gco:Date>2022-03-31</gco:Date>
+    </versionDate>
+    <codelistItem>
+        <CodeListDictionary gml:id='GeodesyML_SitelogChangeTypeCode'>
+            <gml:description>Sitelog Changes information</gml:description>
+            <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:sitelogchange'>GeodesyML_SitelogChangeTypeCode</gml:identifier>
+
+                <codeEntry>
+                    <CodeDefinition gml:id='SitelogChangeTypeCode_DOMES_no'>
+						<gml:description></ml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:sitelogchange'>DOMES_no</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:sitelogchange'>DOMES number change</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+
+				<codeEntry>
+                    <CodeDefinition gml:id='SitelogChangeTypeCode_Monument_info'>
+            <gml:description></ml:description>
+                        <gml:identifier codeSpace='urn:gnss-metadata.eu:gnss:sitelogchange'>Monument_info</gml:identifier>
+						<gml:name codeSpace='urn:gnss-metadata.eu:gnss:sitelogchange'>Monument information change</gml:name>
+                    </CodeDefinition>
+                </codeEntry>
+
+        </CodeListDictionary>
+    </codelistItem>
+</CT_CodelistCatalogue>
